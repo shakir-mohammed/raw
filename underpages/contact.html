@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>💡 Tibaax | Contact us</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="/index.html">
+                <h4 class="mini-logo">Tibaax</h4>
+            </a>
+            <div class="navigations">
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/underpages/about.html">ABOUT</a></li>
+                    <li class="current"><a href="/underpages/contact.html">CONTACT</a></li>
+                    <li><a href="/underpages/course.html" class="h-btn">COURSES</a></li>
+                </ul>
+            </div>
+            <ul></ul>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+
+    <!-- about -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7869.690435866614!2d45.535669!3d9.522174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d87cbce0c8a382d%3A0x267b09092d8aa95c!2sXaafadda%20Afgooye%2C%20Burao%2C%20Somalia!5e0!3m2!1ssv!2sse!4v1622582390648!5m2!1ssv!2sse"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <div class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>📌 Adrees: <span class="arrow">⤵</span></h5>
+                        <p> Burco</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>📱 Mobile: <span class="arrow">⤵</span></h5>
+                        <p><a href="tel:+567890+">+23456</a></p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>📩 Email: <span class="arrow">⤵</span></h5>
+                        <p><a href="mailto:abdimaalik@gmail.com">Abdimaalik@gmail.com</a> </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form>
+                    <input type="text" placeholder="Magacaaga gali" required>
+                    <input type="email" placeholder="Emailkaaga gali" required>
+                    <input type="text" placeholder="Enter subject" required>
+                    <textarea rows="10" placeholder="msg" required></textarea>
+                    <button type="submit" class=" secondary-btn">Dir fariinta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 logo-text">
+                    <h1 class="footer-logo">Tibaax 💡</h1>
+                    <p>Xuquuqda webiste-kani waxay u dhawran tahay tixmaal Ⓡ. Nala soo xidhiidh hadii aad u baahantahay
+                        isticmaalka muuqaaladayada</p>
+                </div>
+                <div class="col-4 col-4-items">
+                    <h4 class="footer-title">Follow us 😀</h4>
+                    <small><a href="https://www.facebook.com/CabdimaalikMuuseColdoon" target="_blank"><i
+                                class="fab fa-facebook"></i>Facebook</a></small>
+                    <small><a href="https://twitter.com/Cabdimalikmuse1" target="_blank"><i
+                                class="fab fa-twitter"></i>Twitter</a></small>
+                    <small><a href="https://www.instagram.com/cabdimaalik_coldoon/" target="_blank"><i
+                                class="fab fa-instagram"></i>Instagram</a></small>
+                    <small><a href="https://www.youtube.com/user/abdilmaalik" target="_blank"><i
+                                class="fab fa-youtube"></i>Youtube</a></small>
+                </div>
+
+                <div class="col-4 col-4-items">
+                    <h4 class="footer-title">Koorsooyinka 💡</h4>
+                    <small>Carabiga</small>
+                    <small>Naxwaha</small>
+                    <small>Axaadiista</small>
+                    <small>Taariikhaha</small>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="sub-footer">
+
+        <p>Tibaax &copy; 2021 Developed by <a href="http://www.xirfadacademy.com" target="_blank"
+                rel="noopener noreferrer">xirfadacademy 🔥</a></p>
+    </div>
+
+
+    <script>
+        const navigations = document.querySelector('.navigations')
+
+        function showMenu() {
+            navigations.style.right = '0'
+        }
+
+        function closeMenu() {
+            navigations.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tutorials-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tutorials-col {
+  flex-basis: 50%;
+  min-width: 250px;
+}
+.tutorials-col img {
+  width: 100%;
+}
+.feature-img {
+  width: 83%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.small-img-row {
+  display: flex;
+  background-color: antiquewhite;
+  margin: 20px 0;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 85%;
+}
